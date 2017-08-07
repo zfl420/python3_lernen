@@ -1,0 +1,3 @@
+from bs4 import BeautifulStoneSoup # 从bs4引用了 BeautifulSoup BS要大写
+soup = BeautifulStoneSoup("<html>data</html>", "html.parser")
+soup2 = BeautifulStoneSoup(open("users/zoufeilong/desktop/demo.html"), "html.parser")
