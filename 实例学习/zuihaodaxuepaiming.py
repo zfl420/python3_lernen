@@ -29,6 +29,6 @@ def main():
     url = 'http://www.zuihaodaxue.cn/zuihaodaxuepaiming2016.html'
     html = getHTMLText(url)
     fillUnivList(uinfo, html)
-    printUnivList(uinfo, 20)  #只列出20锁信息
+    printUnivList(uinfo,20)  #只列出20锁信息
 
 main()
